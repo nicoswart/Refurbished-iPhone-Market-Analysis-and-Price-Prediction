@@ -65,15 +65,3 @@ def get_combined_clean_data(directory, series_prefixes, min_listings=0):
     
     return all_data
 
-# Example usage:
-# directory = 'path_to_your_directory'
-# series_prefixes = {
-#     'iPhone 8': ['iphone_8_2024-'],
-#     'iPhone X/Xs/Xr': ['iphone_X_2024-', 'iphone_Xs_2024-', 'iphone_Xr_2024-'],
-#     'iPhone 11': ['iphone_11_2024-'],
-#     'iPhone 12': ['iphone_12_2024-'],
-#     'iPhone 13': ['iphone_13_2024-'],
-#     'iPhone 14': ['iphone_14_2024-'],
-#     'iPhone 15': ['iphone_15_2024-']
-# }
-# get_combined_clean_data(directory, series_prefixes, min_listings=10)
